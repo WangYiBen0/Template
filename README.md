@@ -1,9 +1,9 @@
 # My C++ Template
 
-Just a collection of part of algorithm & data structures i have learnt yet awa
-Apologize for my poor coding abilities qwq
-Feel free to make issues or PR
-Some may not completed
+Just a collection of part of algorithm & data structures i have learnt yet awa  
+Apologize for my poor coding abilities qwq  
+Feel free to make issues or PR  
+Some may not completed  
 
 ## Contains Yet
 
