@@ -13,6 +13,7 @@ Some may not completed
 - [x] trie  
 - [ ] segment tree  
 - [ ] binary indexed tree (aka Fenwick tree)  
+- [ ] treap (split edition, invented by FHQ)
 
 - [x] KMP (for string)  
 - [x] exKMP (aka Z function)  
