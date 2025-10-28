@@ -7,19 +7,19 @@ Some may not completed
 
 ## Contains Yet
 
-[x] fast input
-[ ] fast output
+- [x] fast input  
+- [ ] fast output  
 
-[x] trie
-[ ] segment tree
-[ ] binary indexed tree (aka Fenwick tree)
+- [x] trie  
+- [ ] segment tree  
+- [ ] binary indexed tree (aka Fenwick tree)  
 
-[x] KMP (for string)
-[x] exKMP (aka Z function)
-[x] binary or ternary search
+- [x] KMP (for string)  
+- [x] exKMP (aka Z function)  
+- [x] binary or ternary search  
 
-[x] geometry
+- [x] geometry  
 
-[x] big integer
-[ ] linear algebra
-[ ] number theory
+- [x] big integer  
+- [ ] linear algebra  
+- [ ] number theory  
