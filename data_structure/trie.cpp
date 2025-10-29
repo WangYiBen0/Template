@@ -5,7 +5,8 @@ namespace W1ngD1nGa5ter
 {
     namespace data_structure
     {
-        template <int MAX_SON = 26, typename Mapper = decltype([](char c) -> int { return c - 'a'; })>
+        template <int MAX_SON = 26, typename Mapper = decltype([](char c) -> int
+                                                               { return c - 'a'; })>
         class trie
         {
             Mapper mapper;

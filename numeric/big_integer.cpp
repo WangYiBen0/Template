@@ -1,12 +1,12 @@
-#include <string>
-#include <vector>
 #include <algorithm>
-#include <stdexcept>
+#include <compare>
 #include <format>
 #include <iostream>
-#include <compare>
 #include <istream>
 #include <sstream>
+#include <stdexcept>
+#include <string>
+#include <vector>
 
 namespace integer
 {
@@ -84,7 +84,6 @@ namespace integer
                 {
                     diff -= other.digits[i];
                 }
-
 
                 if (diff < 0)
                 {
@@ -172,7 +171,6 @@ namespace integer
         // 赋值运算符
         integer &operator=(const integer &other) = default;
 
-
         integer &operator=(integer &&other) = default;
 
         integer &operator=(const std::string &s)
@@ -180,7 +178,6 @@ namespace integer
             *this = integer(s);
             return *this;
         }
-
 
         integer &operator=(long long n)
         {
@@ -270,7 +267,6 @@ namespace integer
 
             result.remove_leading_zeros();
             return result;
-
         }
 
         integer operator/(const integer &other) const
@@ -343,7 +339,6 @@ namespace integer
             *this = *this / other;
             return *this;
         }
-
 
         integer &operator%=(const integer &other)
         {
@@ -458,7 +453,6 @@ namespace integer
                 if (ch >= '0' && ch <= '9')
                 {
                     input += ch;
-
                 }
                 else
                 {

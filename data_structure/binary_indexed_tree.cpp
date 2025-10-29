@@ -5,7 +5,8 @@ namespace W1ngD1nGa5ter
     namespace data_structure
     {
         template <typename Inf>
-        class binary_indexed_tree {
+        class binary_indexed_tree
+        {
             std::vector<Inf> data;
 
         public:

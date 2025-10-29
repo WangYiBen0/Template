@@ -1,9 +1,9 @@
-#include <utility>
-#include <initializer_list>
-#include <cmath>
-#include <vector>
 #include <algorithm>
+#include <cmath>
+#include <initializer_list>
 #include <iostream>
+#include <utility>
+#include <vector>
 
 namespace PlaneGeometry
 {

@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <cctype>
+#include <cstdio>
 #define fre(s) freopen(s ".in", "r", stdin), freopen(s ".out", "w", stdout)
 
 namespace nstd

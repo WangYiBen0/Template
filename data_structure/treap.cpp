@@ -1,6 +1,6 @@
 #include <pointer>
-#include <vector>
 #include <random>
+#include <vector>
 
 namespace W1ngD1nGa5ter
 {
@@ -24,8 +24,8 @@ namespace W1ngD1nGa5ter
                 node *lson, *rson;
             } *root;
 
-            Treap split(int); // split a new fhq-treap whose root is x
-            void merge(Treap &&); // merge with the treap
+            Treap split(int);                   // split a new fhq-treap whose root is x
+            void merge(Treap &&);               // merge with the treap
             friend merge(Treap &&a, Treap &&b); // merge two treap according to key
 
         private:
