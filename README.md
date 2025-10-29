@@ -24,3 +24,4 @@ Some may not completed
 - [x] big integer  
 - [ ] linear algebra  
 - [ ] number theory  
+- [x] modint (integer class that auto mod)
